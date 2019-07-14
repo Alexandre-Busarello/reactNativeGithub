@@ -2,12 +2,14 @@ import { createAppContainer, createStackNavigator } from 'react-navigation';
 
 import Main from './pages/Main';
 import User from './pages/User';
+import WebViewPage from './pages/WebViewPage';
 
 const Routes = createAppContainer(
   createStackNavigator(
     {
       Main,
       User,
+      WebViewPage,
     },
     {
       headerLayoutPreset: 'center',
